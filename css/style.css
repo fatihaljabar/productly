@@ -119,6 +119,7 @@ body{
 }
 
 .btn-secondary {
+    margin-right: 15px;
     padding: 11px 23px 11px 23px;
     background: none;
     color: var(--blue);
@@ -141,6 +142,7 @@ body{
     font-size: 16px;
     border-radius: 5px;
     border: 0;
+    padding: 0;
 }
 
 .badge .icon{
@@ -286,7 +288,34 @@ body{
     background-color: var(--black);
 }
 
-/* .features-card{
-    background-image: url(../img/Bg.png);
-    background-size: cover;
-} */
+.p1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-secondary{
+        margin-right: 0 !important;
+    }
+
+    .btn-primary-2{
+        margin-top: 10px;
+    }
+
+    .features-card{
+        text-align: center;
+    }
+
+    .card-icon-1, .card-icon-2, .card-icon-3, .card-icon-4{
+        display: inline-block;
+    }
+
+    .badge-1{
+        text-align: center;
+    }
+
+    .badge-1 .icon-1{
+        float: none;
+        margin-bottom: 10px;
+    }
+}
