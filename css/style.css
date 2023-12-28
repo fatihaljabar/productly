@@ -88,6 +88,13 @@ body{
     color: var(--grey);
 }
 
+.footer{
+    font-size: 13px;
+    line-height: 28px;
+    font-weight: var(--fwregular);
+    color: var(--grey);   
+}
+
 .btn-primary-1 {
     padding: 15px 41px 15px 41px;
     background: var(--yellow);
